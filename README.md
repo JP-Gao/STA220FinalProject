@@ -3,7 +3,7 @@ Jinpeng Gao
 March 17th, 2020
 
 ## Key words: 
-Web scraping, Python, EDA, Machine learning, Matching
+Web scraping, Python, EDA, Machine learning
 
 ## Project overview: 
 This project serves as the final project of STA220 taught by Professor James Sharpnack in 2020 Spring at UC Davis. As a Ph.D. candidate from Transportation, Technology and Policy major, I am very interested in predicting people's purchase behaviors in vehicle markets. Truecar.com is one of the largest online used car listing websites that provide extensive used car sale information from all over the United States. 
@@ -34,12 +34,11 @@ Some questions I am interested to answer include:
 etc...
 
 ## Notebooks:
-There are 5 notebooks in the project and each works for one important function in the project, which includes:
+There are 4 notebooks in the project and each works for one important function in the project, which includes:
 1. WebScraping: scrape the webpages and parsing all the vehicle webpages, save the raw data to csv file, 'usedCarListing.csv'.
 2. DataMunging and FeatureEngineering: clean the data in terms of missing data, wrong data, get rid of unnessesary spaces and commas, create new features, save the cleaned file to csv file, 'usedCarListingCleaned.csv'.
-3. EDA: extensive explorary data analysis, including lots of visualization to illustrate the distributions of number of listings and prices against different features. Visualize the popular features distribution by plots.
-4. Matching and Causal Effect Analysis: conduct a causal analysis to investigate if similar cars in CA and non-CA have different prices. Also investiage if the effect exists in CA and TX.
-5. Predicting Used Car Price Using ML models: build a xgboost model to predict used car prices, investigate feature importances that affect the car prices.
+3. EDA: extensive explorary data analysis, including lots of visualization to illustrate the distributions of number of listings and prices against different features. Visualize the popular features distribution by plots. Try to answer some questions such as if similar cars in CA and non-CA have different prices, if the price difference exists in CA and TX.
+4. Predicting Used Car Price Using ML models: build a xgboost model to predict used car prices, investigate feature importances that affect the car prices.
 
 ## Data: 
 'usedCarListing.csv': The raw data obtained from web scraping. There are 9655 listings with 15 columns.
