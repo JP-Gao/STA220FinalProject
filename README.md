@@ -29,7 +29,7 @@ etc...
 ## Notebooks:
 There are 5 notebooks in the project and each works for one important function in the project, which includes:
 1. WebScraping: scrape the webpages and parsing all the vehicle webpages, save the raw data to csv file, 'usedCarListing.csv'.
-2. DataPreprocessing and FeatureEngineering: clean the data in terms of missing data, wrong data, get rid of unnessesary spaces and commas, create new features, save the cleaned file to csv file, 'usedCarListingCleaned.csv'.
+2. DataMunging and FeatureEngineering: clean the data in terms of missing data, wrong data, get rid of unnessesary spaces and commas, create new features, save the cleaned file to csv file, 'usedCarListingCleaned.csv'.
 3. EDA: extensive explorary data analysis, including lots of visualization to illustrate the distributions of number of listings and prices against different features. Visualize the popular features distribution by plots.
 4. Matching and Causal Effect Analysis: conduct a causal analysis to investigate if similar cars in CA and non-CA have different prices. Also investiage if the effect exists in CA and TX.
 5. Predicting Used Car Price Using ML models: build a xgboost model to predict used car prices, investigate feature importances that affect the car prices.
