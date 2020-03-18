@@ -18,7 +18,9 @@ The website mainly contains four categories of information
 
 ## Limitations:
 Since there are no available api to use, web scraping and html parsing are used to extract information from Truecar.com. However, the website limit the total number of listings to be presented to users as 9900 cars, even though there are over 1 million listed used cars on the website.
+
 When I tried to get the 9900 cars, I used to default 'Best Match' search term to minimize the potential bias caused by the sampling and presenting procedure by the website. 
+
 One of the important assumptions I make is that I assume the 9900 vehicle listings I scraped from the Truecar.com are randomly sampled from the total population. Therefore, the following analysis can well represent the real distribution and characteristics of whole population.
 
 ## Questions:
