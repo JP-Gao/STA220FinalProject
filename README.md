@@ -16,6 +16,11 @@ The website mainly contains four categories of information
 3) Vehicle characteristics: vehicle year, make, model, color, mpg, mileage, fuel type, drive type, style, etc.
 4) Vehicle history information: number of reported accidents and previous owners, title and usage type, etc.
 
+## Limitations:
+Since there are no available api to use, web scraping and html parsing are used to extract information from Truecar.com. However, the website limit the total number of listings to be presented to users as 9900 cars, even though there are over 1 million listed used cars on the website.
+When I tried to get the 9900 cars, I used to default 'Best Match' search term to minimize the potential bias caused by the sampling and presenting procedure by the website. 
+One of the important assumptions I make is that I assume the 9900 vehicle listings I scraped from the Truecar.com are randomly sampled from the total population. Therefore, the following analysis can well represent the real distribution and characteristics of whole population.
+
 ## Questions:
 Some questions I am interested to answer include:
 1) What's the geospatial and temporal distribution of number of used cars? How other variables impact the distribution of listings?
@@ -40,5 +45,6 @@ There are 5 notebooks in the project and each works for one important function i
 
 ## Instructions:
 You can find all the notebooks in the foler 'notebooks' and two datasets in the foler 'data'. Read the notebooks from 1 to 5 in order to see my whole projects.
+
 
 Thank you
