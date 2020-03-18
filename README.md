@@ -41,4 +41,4 @@ There are 5 notebooks in the project and each works for one important function i
 ## Instructions:
 You can find all the notebooks in the foler 'notebooks' and two datasets in the foler 'data'. Read the notebooks from 1 to 5 in order to see my whole projects.
 
-Thank you!
+Thank you
