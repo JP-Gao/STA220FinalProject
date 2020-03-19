@@ -45,7 +45,7 @@ There are 4 notebooks in the project and each works for one important function i
 'usedCarListingCleaned.csv': The cleaned data after data preprocessing. There are 9652 listings with 22 columns
 
 ## Instructions:
-You can find all the notebooks in the foler 'notebooks' and two datasets in the foler 'data'. Read the notebooks from 1 to 5 in order to see my whole projects.
+You can find all the notebooks in the folder 'notebooks' and two datasets in the foler 'data'. Read the notebooks from 1 to 5 in order to see my whole projects.
 
 
 Thank you
