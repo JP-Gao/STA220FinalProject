@@ -48,5 +48,12 @@ There are 4 notebooks in the project and each works for one important function i
 ## Instructions:
 You can find all the notebooks in the folder 'notebooks' and two datasets in the foler 'data'. Read the notebooks from 1 to 5 in order to see my whole projects.
 
+## Conclusion:
+From the visualization and machine learning modeling, I found out several conclusions below.
+1. TX, CA and FL are the top 3 used car markets, however the car prices between CA and non-CA/TX are very close. 
+2. 3-year old used cars are the largest share in the current used car markets. The possible reasons could be the popularity of 3-year leased cars.
+3. The most popular automakers in the US are Ford, Chevrolet, Nissan and Toyota. The possible reasons could be the US-brand loyalty for Ford and Chevrolet and the popularity of pickups, and another reason is that Japanese second-hand cars are popular and reliable.
+4. The certified pre-owned cars are more expensive than normal used cars.
+5. When predicting the used car prices, the most important features include mileage, mpg and model year. From visualization, we see that the higher the mileage, the lower the price. And also for luxury brands vehicles, they tend to have very low mpgs. The model year is also correlated with mileage and the older the car is, the lower price it will be.
 
 Thank you
